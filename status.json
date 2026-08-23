@@ -1,15 +1,12 @@
 {
-  "generated_at": "2026-08-23T23:40:44.302844+01:00",
+  "generated_at": "2026-08-23T23:55:46.294255+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
     "pid": 95510,
-    "last_scan": {
-      "timestamp": "2026-08-23 23:25:47,988",
-      "detail": "equity=1,000,513.41 EURUSD=no_signal(score=-) GBPUSD=no_signal(score=-) USDJPY=no_signal(score=-) AUDUSD=no_signal(score=-) USDCAD=no_signal(score=-) USDCHF=no_signal(score=-) NZDUSD=no_signal(score=-)"
-    },
+    "last_scan": null,
     "last_error_line": null,
-    "log_mtime": "2026-08-23T23:25:47.989481+01:00"
+    "log_mtime": "2026-08-23T23:41:29.744243+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
