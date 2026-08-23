@@ -118,11 +118,54 @@ reminders = [
     {"method": "SiteSmith", "cadence": "Monday 10:00", "note": "LeadLu CSV export reminder in Money Brain"},
 ]
 
+# ---------------------------------------------------------------------------
+# Weekly timetable — mirrors Money Brain's Week Planner exactly: same
+# accounts, times, platform/brand colours and day grouping, sourced from
+# src/lib/postSchedules.js + youtubeChannels.js + scheduleUtils.js +
+# palette.js (colorForMethodId/FIXED_ORDER/CATEGORICAL) as of 2026-08-23.
+# This is a static hand-mirrored snapshot, not read live from Money Brain's
+# source — if the schedule changes there, this needs a manual re-sync.
+# ---------------------------------------------------------------------------
+TIMETABLE = {
+    "Monday": [
+        {"time": "10:00 am", "platform": "SiteSmith", "account": "SiteSmith", "detail": "Export fresh leads from LeadLu", "colour": "#26c6da"},
+    ],
+    "Tuesday": [
+        {"time": "8:00 to 9:00 am", "platform": "YouTube Video", "account": "The Inward Architect", "detail": None, "colour": "#1fbf8f"},
+        {"time": "10:30 am", "platform": "Newsletter", "account": "Hardwired Weekly", "detail": None, "colour": "#9b7ef0"},
+        {"time": "11:00 am", "platform": "Pinterest", "account": "Inkandrise", "detail": None, "colour": "#e8558f"},
+        {"time": "11:00 am", "platform": "Pinterest", "account": "Hardwired Weekly", "detail": None, "colour": "#3987e5"},
+        {"time": "12:00 pm", "platform": "YouTube Short", "account": "Hardwired For More", "detail": None, "colour": "#3987e5"},
+        {"time": "8:00 pm", "platform": "Etsy", "account": "Inkandrise", "detail": "New Nursery listing", "colour": "#e75454"},
+    ],
+    "Wednesday": [
+        {"time": "3:00 pm", "platform": "YouTube Video", "account": "Built From Within Motivation", "detail": None, "colour": "#9b7ef0"},
+    ],
+    "Thursday": [
+        {"time": "8:00 am", "platform": "YouTube Short", "account": "Built From Within Motivation", "detail": None, "colour": "#9b7ef0"},
+        {"time": "12:00 pm", "platform": "Pinterest", "account": "Hardwired Weekly", "detail": None, "colour": "#3987e5"},
+        {"time": "8:00 pm", "platform": "Etsy", "account": "Inkandrise", "detail": "New Feminine line art listing", "colour": "#e75454"},
+    ],
+    "Friday": [
+        {"time": "12:00 pm", "platform": "YouTube Short", "account": "Daniel Bakekolo", "detail": None, "colour": "#e0b400"},
+    ],
+    "Saturday": [
+        {"time": "8:00 pm", "platform": "Pinterest", "account": "Inkandrise", "detail": None, "colour": "#e8558f"},
+    ],
+    "Sunday": [
+        {"time": "7:00 pm", "platform": "Etsy", "account": "Inkandrise", "detail": "New Motivational typography listing", "colour": "#e75454"},
+        {"time": "7:00 to 8:00 pm", "platform": "YouTube Video", "account": "Daniel Bakekolo", "detail": None, "colour": "#e0b400"},
+        {"time": "8:00 pm", "platform": "Pinterest", "account": "Inkandrise", "detail": None, "colour": "#e8558f"},
+        {"time": "8:00 pm", "platform": "Pinterest", "account": "Hardwired Weekly", "detail": None, "colour": "#3987e5"},
+    ],
+}
+
 status = {
     "generated_at": now_iso(),
     "trading": trading,
     "etsy": etsy,
     "reminders": reminders,
+    "timetable": TIMETABLE,
 }
 
 out_path = Path(__file__).resolve().parent / "status.json"
