@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-08-23T22:24:33.676487+01:00",
+  "trading": {
+    "label": "AI Trading (forex paper validation)",
+    "launchd_running": true,
+    "pid": 95510,
+    "last_scan": {
+      "timestamp": "2026-08-23 22:21:08,681",
+      "detail": "equity=1,000,513.41 EURUSD=no_signal(score=-) GBPUSD=no_signal(score=-) USDJPY=no_signal(score=-) AUDUSD=no_signal(score=-) USDCAD=no_signal(score=-) USDCHF=no_signal(score=-) NZDUSD=no_signal(score=-)"
+    },
+    "last_error_line": null,
+    "log_mtime": "2026-08-23T22:21:08.681936+01:00"
+  },
+  "etsy": {
+    "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
+    "launchd_running": true,
+    "pid": null,
+    "last_run_complete_line": "[2026-08-17T09:00:30+01:00] Weekly run complete for 2026-W34.",
+    "log_mtime": "2026-08-17T09:00:30.344716+01:00",
+    "recent_errors": [],
+    "next_scheduled": "2026-08-24T09:00:00+01:00"
+  },
+  "reminders": [
+    {
+      "method": "Etsy",
+      "cadence": "Tue / Thu / Sun",
+      "note": "Upload reminder surfaced in Money Brain"
+    },
+    {
+      "method": "SiteSmith",
+      "cadence": "Monday 10:00",
+      "note": "LeadLu CSV export reminder in Money Brain"
+    }
+  ]
+}
