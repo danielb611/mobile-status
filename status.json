@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-25T09:31:32.487306+01:00",
+  "generated_at": "2026-08-25T09:46:34.392017+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
     "pid": 95510,
     "last_scan": {
-      "timestamp": "2026-08-25 09:24:37,743",
+      "timestamp": "2026-08-25 09:41:11,232",
       "detail": "equity=1,000,650.84 EURUSD=no_signal(score=-) GBPUSD=no_signal(score=-) USDJPY=no_signal(score=-) AUDUSD=no_signal(score=-) USDCAD=no_signal(score=-) USDCHF=no_signal(score=-) NZDUSD=no_signal(score=-)"
     },
     "last_error_line": "2026-08-25 05:50:51,950 ERROR Error 1102, reqId -1: Connectivity between IBKR and Trader Workstation has been restored - data maintained. All data farms are connected: eufarm; euhmds; cashhmds; secdefeu.",
-    "log_mtime": "2026-08-25T09:24:37.744778+01:00"
+    "log_mtime": "2026-08-25T09:41:11.233357+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
