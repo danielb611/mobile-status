@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T18:53:35.452754+01:00",
+  "generated_at": "2026-08-26T20:35:40.985086+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
@@ -8,8 +8,8 @@
       "timestamp": "2026-08-26 16:45:48,485",
       "detail": "equity=1,000,696.63 EURUSD=no_signal(score=-) GBPUSD=no_signal(score=-) USDJPY=no_signal(score=-) AUDUSD=no_signal(score=-) USDCAD=no_signal(score=-) USDCHF=no_signal(score=-) NZDUSD=no_signal(score=-)"
     },
-    "last_error_line": "2026-08-26 16:45:26,449 ERROR Error 322, reqId 1560: Error processing request.-'bY' : cause - Maximum number of account summary requests exceeded; desubscribe to previous request first",
-    "log_mtime": "2026-08-26T16:45:48.486516+01:00"
+    "last_error_line": "2026-08-26 20:32:42,464 ERROR Error 1100, reqId -1: Connectivity between IBKR and Trader Workstation has been lost.",
+    "log_mtime": "2026-08-26T20:32:42.465412+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
