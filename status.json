@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-26T09:29:29.398890+01:00",
+  "generated_at": "2026-08-26T09:44:31.347149+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
     "pid": 95510,
     "last_scan": {
-      "timestamp": "2026-08-26 09:17:39,669",
+      "timestamp": "2026-08-26 09:32:46,877",
       "detail": "equity=1,000,696.63 EURUSD=no_signal(score=-) GBPUSD=no_signal(score=-) USDJPY=no_signal(score=-) AUDUSD=no_signal(score=-) USDCAD=no_signal(score=-) USDCHF=no_signal(score=-) NZDUSD=no_signal(score=-)"
     },
     "last_error_line": "2026-08-26 09:17:36,717 ERROR Error 322, reqId 1372: Error processing request.-'bY' : cause - Maximum number of account summary requests exceeded; desubscribe to previous request first",
-    "log_mtime": "2026-08-26T09:17:39.669890+01:00"
+    "log_mtime": "2026-08-26T09:32:46.880100+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
