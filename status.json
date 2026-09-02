@@ -1,15 +1,12 @@
 {
-  "generated_at": "2026-09-02T06:08:08.896771+01:00",
+  "generated_at": "2026-09-02T06:23:10.956381+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
     "pid": 95510,
-    "last_scan": {
-      "timestamp": "2026-09-02 06:01:52,952",
-      "detail": "equity=1,001,023.61 EURUSD=no_signal(score=-) GBPUSD=no_signal(score=-) USDJPY=no_signal(score=-) AUDUSD=no_signal(score=-) USDCAD=fetch_err USDCHF=fetch_err NZDUSD=fetch_err"
-    },
-    "last_error_line": "2026-09-02 06:01:52,938 ERROR Peer closed connection.",
-    "log_mtime": "2026-09-02T06:01:52.952962+01:00"
+    "last_scan": null,
+    "last_error_line": null,
+    "log_mtime": "2026-09-02T06:18:00.990827+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
