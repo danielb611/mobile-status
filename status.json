@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-28T05:58:20.667793+01:00",
+  "generated_at": "2026-09-28T06:13:22.755341+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
     "pid": 95510,
     "last_scan": null,
     "last_error_line": null,
-    "log_mtime": "2026-09-28T05:53:55.834516+01:00"
+    "log_mtime": "2026-09-28T06:11:43.113926+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
