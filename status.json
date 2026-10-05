@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-05T06:18:53.380571+01:00",
+  "generated_at": "2026-10-05T13:04:12.921672+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
     "pid": 95510,
     "last_scan": null,
     "last_error_line": null,
-    "log_mtime": "2026-10-05T04:09:15.645110+01:00"
+    "log_mtime": "2026-10-05T13:01:08.806904+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
     "launchd_running": true,
     "pid": null,
-    "last_run_complete_line": "[2026-09-28T09:05:22+01:00] Weekly run complete for 2026-W40.",
-    "log_mtime": "2026-09-28T09:05:22.692175+01:00",
+    "last_run_complete_line": "[2026-10-05T09:07:48+01:00] Weekly run complete for 2026-W41.",
+    "log_mtime": "2026-10-05T09:07:48.971983+01:00",
     "recent_errors": [],
-    "next_scheduled": "2026-10-05T09:00:00+01:00"
+    "next_scheduled": "2026-10-12T09:00:00+01:00"
   },
   "reminders": [
     {
