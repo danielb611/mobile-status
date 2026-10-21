@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-21T05:24:40.403557+01:00",
+  "generated_at": "2026-10-21T05:39:42.387694+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
     "pid": 1288,
     "last_scan": null,
-    "last_error_line": "2026-10-21 05:24:19,672 ERROR Make sure API port on TWS/IBG is open",
-    "log_mtime": "2026-10-21T05:24:19.675682+01:00"
+    "last_error_line": "2026-10-21 05:39:30,620 ERROR Make sure API port on TWS/IBG is open",
+    "log_mtime": "2026-10-21T05:39:30.620432+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
