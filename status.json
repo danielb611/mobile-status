@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-22T20:47:00.512183+01:00",
+  "generated_at": "2026-11-23T10:57:33.967530+01:00",
   "trading": {
     "label": "AI Trading (forex paper validation)",
     "launchd_running": true,
     "pid": 1288,
     "last_scan": null,
-    "last_error_line": "2026-11-23 02:46:53,920 ERROR Make sure API port on TWS/IBG is open",
-    "log_mtime": "2026-11-22T20:46:53.921191+01:00"
+    "last_error_line": "2026-11-23 16:57:15,853 ERROR Make sure API port on TWS/IBG is open",
+    "log_mtime": "2026-11-23T10:57:15.854105+01:00"
   },
   "etsy": {
     "label": "Etsy auto-generation (weekly, Mon 09:00 Dublin)",
     "launchd_running": true,
     "pid": null,
-    "last_run_complete_line": "[2026-11-16T09:01:04+00:00] Weekly run complete for 2026-W47.",
-    "log_mtime": "2026-11-16T10:01:04.737725+01:00",
+    "last_run_complete_line": "[2026-11-23T09:10:03+00:00] Weekly run complete for 2026-W48.",
+    "log_mtime": "2026-11-23T10:10:03.363304+01:00",
     "recent_errors": [],
-    "next_scheduled": "2026-11-23T09:00:00+01:00"
+    "next_scheduled": "2026-11-30T09:00:00+01:00"
   },
   "reminders": [
     {
